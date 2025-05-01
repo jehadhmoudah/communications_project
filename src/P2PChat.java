@@ -181,7 +181,7 @@ public class P2PChat extends JFrame {
                     InetAddress.getByName(remoteIP), remotePort);
             socket.send(packet);
 
-            appendToChat("Me: " + msg + " [" + LocalTime.now().withNano(0) + "]\n", Color.YELLOW);
+            appendToChat("Me: " + msg + " [" + LocalTime.now().withNano(0) + "]\n",new Color(0xDFCC00));
             log("[Sent] " + msg);
             messageField.setText("");
         } catch (Exception ex) {
