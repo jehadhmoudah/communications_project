@@ -1,1 +1,1 @@
-LAN P2PChat with Automatic Discovery
+LAN P2P Chat with Live Peer Discovery
