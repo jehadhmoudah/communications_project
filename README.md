@@ -1,1 +1,1 @@
-LAN P2PChat
+LAN P2PChat with Automatic Discovery
